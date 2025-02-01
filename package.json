@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "d": "yarn deploy",
+    "surge": "yarn deploy",
+    "deploy": "surge . https://pwa-template-example-installable.surge.sh; open https://pwa-template-example-installable.surge.sh;"
+  }
+}
