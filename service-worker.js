@@ -5,12 +5,11 @@ var offlinePage = "/index.html";
 var URLS = [
   // yes, the slash "/" matters here in service-worker.js:
   offlinePage,
+  "/manifest.webmanifest",
+
   "/css-boilerplate.css",
   "/other-script.js",
   "/service-worker.js",
-
-  // this and icon.png and manifest.webmanifest in index.html are the main differences with the other example:
-  "/manifest.webmanifest",
 ];
 
 self.addEventListener("install", installServiceWorker);
